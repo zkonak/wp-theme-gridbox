@@ -18,7 +18,7 @@
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
 
 			<div id="footer-text" class="site-info">
-			Créé avec &hearts; par l’équipe DWWM P19.
+			<?php echo get_theme_mod( 'gridbox_child_footer_text' ); ?>
 			</div><!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>
